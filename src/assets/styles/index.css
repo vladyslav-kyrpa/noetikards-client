@@ -4,6 +4,8 @@
     --color-*: initial;
     --color-page: #141414;
     --color-active: rgb(28, 255, 138);
+    --color-minor-text: #737373;
+    --color-negative-text: black;
 
     --color-surface: #202020;
     --color-surface-highlight: #2B2B2B;
@@ -17,7 +19,7 @@
 }
 
 body {
-    color: white;
+    color: rgb(255, 252, 239);
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
