@@ -3,14 +3,21 @@
 @theme {
     --color-*: initial;
     --color-page: #141414;
+    --color-active: rgb(28, 255, 138);
+
     --color-surface: #202020;
-    --color-active: blue;
     --color-surface-highlight: #2B2B2B;
+
+    --color-on-surface: #2B2B2B;
+    --color-on-surface-highlight: #333333;
+
     --radius-item: 0.5rem;
     --radius-block: 1rem;
+    --color-icon: white;
 }
 
 body {
+    color: white;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
