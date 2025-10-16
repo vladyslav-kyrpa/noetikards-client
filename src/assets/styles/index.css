@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+    --color-*: initial;
+    --color-page: #141414;
+    --color-surface: #202020;
+    --color-active: blue;
+    --color-surface-highlight: #2B2B2B;
+    --radius-item: 0.5rem;
+    --radius-block: 1rem;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
